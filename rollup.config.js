@@ -5,6 +5,6 @@ export default {
   external: externals(),
   output: {
     file: 'lib/index.js',
-    format: 'es',
+    format: 'cjs',
   }
 }
