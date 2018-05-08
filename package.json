@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-vue-svg-component",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Rollup plugin for compiling svg images as Vue components",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -12,6 +12,9 @@
     "build": "yarn rollup -c rollup.config.js",
     "prepublish": "yarn build"
   },
+  "peerDependencies": {
+    "vue-svg-component-runtime": "^1.0.0"
+  },
   "devDependencies": {
     "@yelo/rollup-node-external": "1.0.1",
     "rimraf": "2.6.2",
@@ -19,7 +22,7 @@
   },
   "dependencies": {
     "rollup-pluginutils": "2.0.1",
-    "vue-svg-component-builder": "1.1.1",
+    "vue-svg-component-builder": "2.0.3",
     "vue-template-compiler": "2.5.16"
   }
 }
