@@ -1,6 +1,7 @@
 {
   "name": "rollup-plugin-vue-svg-component",
   "description": "Rollup plugin for compiling svg images as Vue components",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "repository": "https://github.com/wadetandy/rollup-plugin-vue-svg-component",
