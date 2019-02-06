@@ -17,11 +17,11 @@
   "devDependencies": {
     "@yelo/rollup-node-external": "1.0.1",
     "rimraf": "2.6.2",
-    "rollup": "0.58.2"
+    "rollup": "^1.1.2"
   },
   "dependencies": {
     "rollup-pluginutils": "2.0.1",
     "vue-svg-component-builder": "2.0.3",
-    "vue-template-compiler": "^2.5.16"
+    "vue-template-compiler": "^2.6.0"
   }
 }
